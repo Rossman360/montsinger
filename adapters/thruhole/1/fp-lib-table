@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name avr-arduino)(type KiCad)(uri /home/john/Documents/keyboard_parts/avr-arduino-kicad-master/library/avr-arduino.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri /home/pi/Desktop/Rebound-design-master/Keebio-Parts.pretty-master)(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name keebio)(type Legacy)(uri /home/pi/Desktop/keyboard-design/libraries/keebio-components-master/keebio.lib)(options "")(descr ""))
+  (lib (name ai03-locallib)(type Legacy)(uri /home/pi/Desktop/keyboard-design/libraries/locallib.pretty/schema/ai03-locallib.lib)(options "")(descr ""))
+  (lib (name logic)(type Legacy)(uri /home/pi/Desktop/keyboard-design/libraries/locallib.pretty/schema/logic.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/home/pi/Desktop/keyboard-design/libraries/MX_Alps_Hybrid-master/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name corne-light-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-light-rescue.lib)(options "")(descr ""))
+  (lib (name corne-classic-cache)(type Legacy)(uri /home/pi/Desktop/crkbd-master/corne-classic/pcb/corne-classic-cache.lib)(options "")(descr ""))
+)

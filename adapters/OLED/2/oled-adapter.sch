@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2350 4000 2900 4000
+Wire Wire Line
+	2350 4000 2350 1400
+Wire Wire Line
+	2400 3900 2900 3900
+Wire Wire Line
+	2400 1500 2400 3900
+Wire Wire Line
+	2900 1500 2400 1500
+Wire Wire Line
+	2650 2000 2900 2000
+Wire Wire Line
+	2900 3400 2650 3400
+Wire Wire Line
+	2700 2100 2900 2100
+Wire Wire Line
+	2700 3300 2700 2100
+Wire Wire Line
+	2900 3300 2700 3300
+Wire Wire Line
+	2900 2400 2850 2400
+Wire Wire Line
+	2900 2900 2900 2500
+$Comp
+L keebio:Elite-C U1
+U 1 1 5E939961
+P 3600 1950
+F 0 "U1" H 3600 2787 60  0000 C CNN
+F 1 "ProMicro" H 3600 2681 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C-ZigZag" V 4650 -550 60  0001 C CNN
+F 3 "" V 4650 -550 60  0001 C CNN
+	1    3600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2900 4300 2500
+Wire Wire Line
+	4650 1800 4300 1800
+Wire Wire Line
+	4650 3600 4650 1800
+Wire Wire Line
+	4300 3600 4650 3600
+Wire Wire Line
+	4600 3500 4300 3500
+Wire Wire Line
+	4600 1900 4600 3500
+Wire Wire Line
+	4300 1900 4600 1900
+Wire Wire Line
+	4550 2000 4300 2000
+Wire Wire Line
+	4300 3400 4550 3400
+Wire Wire Line
+	4500 3300 4300 3300
+Wire Wire Line
+	4500 2100 4500 3300
+Wire Wire Line
+	4300 2100 4500 2100
+Wire Wire Line
+	4300 1400 4850 1400
+Wire Wire Line
+	4850 1400 4850 4000
+Wire Wire Line
+	4850 4000 4300 4000
+Wire Wire Line
+	2900 1400 2350 1400
+Wire Wire Line
+	4300 3800 4750 3800
+Wire Wire Line
+	2800 2300 2800 3100
+Wire Wire Line
+	2800 2300 2900 2300
+Wire Wire Line
+	2800 3100 2900 3100
+Wire Wire Line
+	2900 3000 2850 3000
+Wire Wire Line
+	2850 3000 2850 2400
+Wire Wire Line
+	2750 2200 2750 3200
+Wire Wire Line
+	2750 2200 2900 2200
+Wire Wire Line
+	2750 3200 2900 3200
+Wire Wire Line
+	4300 3100 4400 3100
+Wire Wire Line
+	4400 2300 4300 2300
+Wire Wire Line
+	4300 3000 4350 3000
+Wire Wire Line
+	4350 3000 4350 2400
+Wire Wire Line
+	4350 2400 4300 2400
+Wire Wire Line
+	4400 2300 4400 3100
+Wire Wire Line
+	4300 3200 4450 3200
+Wire Wire Line
+	4450 3200 4450 2200
+Wire Wire Line
+	4450 2200 4300 2200
+Wire Wire Line
+	4550 2000 4550 3400
+Wire Wire Line
+	4300 1600 4750 1600
+Wire Wire Line
+	4750 1600 4750 3800
+Wire Wire Line
+	2900 1700 2500 1700
+Wire Wire Line
+	2500 1700 2500 3700
+Wire Wire Line
+	2500 3700 2900 3700
+Wire Wire Line
+	2900 3800 2450 3800
+Wire Wire Line
+	2450 3800 2450 1600
+Wire Wire Line
+	2450 1600 2900 1600
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5EAEE56C
+P 5850 2650
+F 0 "J1" H 5768 2225 50  0000 C CNN
+F 1 "Conn_01x04" H 5768 2316 50  0000 C CNN
+F 2 "" H 5850 2650 50  0001 C CNN
+F 3 "~" H 5850 2650 50  0001 C CNN
+	1    5850 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L keebio:ProMicro U2
+U 1 1 5E9394F7
+P 3600 3450
+F 0 "U2" H 3600 4287 60  0000 C CNN
+F 1 "ProMicro" H 3600 4181 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro-Mini-USB-ZigZag" V 4650 950 60  0001 C CNN
+F 3 "" V 4650 950 60  0001 C CNN
+	1    3600 3450
+	1    0    0    1   
+$EndComp
+Text GLabel 6050 2750 2    50   Input ~ 0
+SDA
+Text GLabel 2900 1800 0    50   Input ~ 0
+SDA
+Text GLabel 6050 2650 2    50   Input ~ 0
+SCL
+Text GLabel 2900 1900 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2650 3400 2650 2000
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EB0FAF5
+P 4300 1700
+F 0 "#PWR0101" H 4300 1550 50  0001 C CNN
+F 1 "VCC" V 4317 1828 50  0000 L CNN
+F 2 "" H 4300 1700 50  0001 C CNN
+F 3 "" H 4300 1700 50  0001 C CNN
+	1    4300 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5EB0FF03
+P 6050 2550
+F 0 "#PWR0102" H 6050 2400 50  0001 C CNN
+F 1 "VCC" V 6067 2678 50  0000 L CNN
+F 2 "" H 6050 2550 50  0001 C CNN
+F 3 "" H 6050 2550 50  0001 C CNN
+	1    6050 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EB10EB1
+P 6050 2450
+F 0 "#PWR0103" H 6050 2200 50  0001 C CNN
+F 1 "GND" V 6055 2322 50  0000 R CNN
+F 2 "" H 6050 2450 50  0001 C CNN
+F 3 "" H 6050 2450 50  0001 C CNN
+	1    6050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EB185AC
+P 4300 1500
+F 0 "#PWR0104" H 4300 1250 50  0001 C CNN
+F 1 "GND" V 4305 1372 50  0000 R CNN
+F 2 "" H 4300 1500 50  0001 C CNN
+F 3 "" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2900 3400 3500
+Wire Wire Line
+	3400 3500 2900 3500
+Wire Wire Line
+	3500 2900 3500 3600
+Wire Wire Line
+	3500 3600 2900 3600
+$EndSCHEMATC
